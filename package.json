@@ -1,0 +1,23 @@
+{
+  "name": "dogewood-whitelist-market",
+  "version": "1.0.0",
+  "description": "defenders of dogewood whitelist market",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinrufino/dogewood-whitelist-market.git"
+  },
+  "author": "sailork",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinrufino/dogewood-whitelist-market/issues"
+  },
+  "homepage": "https://github.com/kevinrufino/dogewood-whitelist-market#readme",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
+}
