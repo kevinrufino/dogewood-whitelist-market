@@ -28,7 +28,7 @@ select {
 
 html, body {
 	overscroll-behavior: none;
-	font-family: 'IBM Plex Mono Medium', monospace;
+	font-family: 'Roboto Medium', monospace;
 	margin: 0;
 	width: 100%;
 	height: 100%;	
@@ -59,7 +59,7 @@ h1, h2 {
 }
 
 h1 {
-	font-family: "IBM Plex Mono Medium", monospace;
+	font-family: "Roboto Medium", monospace;
 	color: black;
 	font-weight: 600;
 	font-size: 3vw !important;
@@ -142,7 +142,7 @@ p {
 
 .body {
 	background-color: white;
-	font-family: "IBM Plex Mono Medium", monospace;
+	font-family: "Roboto Medium", monospace;
 	background-size: auto;
 	background-repeat: repeat;
 	color: black;
@@ -210,7 +210,7 @@ p {
 	line-height: 1.7vw;
 	padding: .5vw;
 	border-radius: 5px;
-	font-family: "IBM Plex Mono Medium", monospace;
+	font-family: "Roboto Medium", monospace;
 	font-weight: bolder;
 }
 
@@ -284,7 +284,7 @@ h5 {
     text-align: center;
 	border-radius: 15px;
 	border: .5vw solid black;
-	font-family: "IBM Plex Mono Medium";
+	font-family: "Roboto Medium";
 }
 
 .etherscan-link {
@@ -337,7 +337,7 @@ h5 {
 	padding: 1vw;
     transform: translate(-50%, -50%);
     text-align: center;
-	font-family: "IBM Plex Mono Medium", monospace;
+	font-family: "Roboto Medium", monospace;
 }
 
 

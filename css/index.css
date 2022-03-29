@@ -19,7 +19,7 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     height: 10vh;
-	font-family: 'IBM Plex Mono Medium', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 #project-name {
