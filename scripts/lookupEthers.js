@@ -111,7 +111,7 @@ function selectListing(listingName) {
 }
 
 function updateDownload(listingName) {
-    let filename = `Anonymice - ${listingName} WL.txt`;
+    let filename = `DoD - ${listingName} WL.txt`;
     let wlArray = [...(projectToWL.get(listingName))];
     let wlString = wlArray.join("\n");
 

@@ -99,7 +99,7 @@ function clearPendingTxs() {
     }
 
     if (jsonData.numLive == 0) {
-        $("#live-collections").append("<div id='no-live-msg'><h2>No active listings.<br>Join our discord to see what's next!</h2><br><a href='https://discord.com/invite/anonymice' target='_blank'><button class='button'>JOIN DISCORD</button></a></div>");
+        $("#live-collections").append("<div id='no-live-msg'><h2>No active listings.<br>Join our discord to see what's next!</h2><br><a href='https://discord.com/invite/zcZEQ5VcjP' target='_blank'><button class='button'>JOIN DISCORD</button></a></div>");
     }
 }
 
