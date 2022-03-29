@@ -9,7 +9,7 @@ select {
 	font-size: 2vw !important;
 	border-style: solid;
 	background-color: #333333;
-	color: #F8E4A9 !important;
+	color: #ffb94f !important;
 	border-width: .5vw;
 	border-radius: 5px;
 	border: none;
@@ -96,8 +96,8 @@ p {
 
 #account, #discord {
 	text-align: center;
-	background-color: #F1C94B !important;
-	color:black !important;
+	background-color: #ffa113 !important;
+	color:#fff !important;
 	height: 50%;
 	min-height: 3vw;
   }
@@ -120,23 +120,23 @@ p {
 }
 
   .button.loading, .button.connect {
-	background-color: #F1C94B !important;
-	color:#333333 !important;
+	background-color: #ffa113 !important;
+	color:#fff !important;
   }
 
   #account.connected:hover {
-	  background-color: #F1C94B !important;
+	  background-color: #ffa113 !important;
 	  cursor: default;
   }
 
   .button.loading:hover {
-	background-color: #F1C94B !important;
-	color:#333333 !important;
+	background-color: #ffa113 !important;
+	color:#fff !important;
   }
 
   .button.connect:hover {
-	background-color: #F1C94B !important;
-	color:#333333 !important;
+	background-color: #ffa113 !important;
+	color:#fff !important;
 	cursor: pointer;
   }
 
@@ -205,7 +205,7 @@ p {
 .button {
 	touch-action: manipulation;
 	background-color: #333333 !important;
-	color: #F8E4A9 !important;
+	color: #ffb94f !important;
 	font-size: 1.4vw;
 	line-height: 1.7vw;
 	padding: .5vw;
@@ -225,16 +225,16 @@ p {
 }
 
 .title-link:hover {
-	color: #F8E4A9 !important;
+	color: #ffb94f !important;
 }
 
 .button:hover {
-	background-color: #F8E4A9 !important;
+	background-color: #ffb94f !important;
 	color: #333333 !important;
 }
 
 .link:hover {
-	color: #F8E4A9;
+	color: #ffb94f;
 }
 
 .section-title{
@@ -275,7 +275,7 @@ h5 {
     width: 100%;
     text-decoration: none;
     height: 5%;
-    background-color: #F8E4A9;
+    background-color: #ffb94f;
     border: solid white .3em;
     color: black;
     font-size: 1.2vw;
@@ -501,8 +501,8 @@ h5 {
 
 	#mobile-account {
 		width: 80%;
-		background-color: #F1C94B !important;
-		color:#333333 !important;
+		background-color: #ffa113 !important;
+		color:#fff !important;
 	  }
 
 	#about {

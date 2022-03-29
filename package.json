@@ -4,7 +4,7 @@
   "description": "defenders of dogewood whitelist market",
   "main": "index.js",
   "scripts": {
-    "start": "http-server",
+    "start": "http-server -c10",
     "test": "test"
   },
   "repository": {

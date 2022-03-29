@@ -2,10 +2,9 @@ const ethers = require('ethers');
 
 const infuraKey = process.env.INFURA_KEY;
 const provider = new ethers.providers.InfuraProvider("mainnet", infuraKey);
-// const tokenImgURL = "https://github.com/saintmaxi/cheeth-market/blob/main/images/cheethv2.png?raw=true";
-const tokenImgURL = "https://pbs.twimg.com/profile_images/1502564198814916608/GPZhcQgn_400x400.jpg";
+const tokenImgURL = "https://github.com/kevinrufino/dogewood-whitelist-market/blob/main/images/treat-logo.png?raw=true";
 
-const cheethAddress = "0x5d0915f929FC090fd9c843a53e7e30335dD199bc";
+const treatAddress = "0x5d0915f929FC090fd9c843a53e7e30335dD199bc";
 
 const marketAddress = "0x03923b329d01cb060461d455E087Cc7A11524EBf";
 const marketAbi = () => {
@@ -24,10 +23,10 @@ const splitArrayToChunks = (array_, chunkSize_) => {
 };
 
 const getCollections = async() => {
-    const numCollections = Number( await market.getWLVendingItemsLength(cheethAddress) );
+    const numCollections = Number( await market.getWLVendingItemsLength(treatAddress) );
     let allItems;
     if (numCollections > 0) {
-        allItems = await market.getWLVendingItemsPaginated( cheethAddress, 0, numCollections - 1);
+        allItems = await market.getWLVendingItemsPaginated( treatAddress, 0, numCollections - 1);
     }
     else {
         allItems = [];

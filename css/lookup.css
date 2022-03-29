@@ -22,7 +22,7 @@ h2 {
     line-height: 2vw;
 }
 
-#cheeth-allocation {
+#treat-allocation {
     border-top: solid .5vw #333333;
     padding-top: .5vw;
 }
@@ -79,7 +79,7 @@ select {
         padding-bottom: 4vh;
     }
 
-    #cheeth-allocation {
+    #treat-allocation {
         border-top: solid 5px #333333;
         padding-top: 4vh !important;
     }
