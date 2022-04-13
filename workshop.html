@@ -147,6 +147,8 @@
             <br>
             <input type="number" min="1" id="listing-amount" placeholder="amountAvailable">
             <br>
+            <input id="listing-start" placeholder="start time (unix style - in seconds)">
+            <br>
             <input id="listing-deadline" placeholder="deadline (unix style - in seconds)">
             <br>
             <input type="number" min="0" id="listing-price" placeholder="price (in pTREAT - ex: 20)">
@@ -156,6 +158,8 @@
             <button class="button" onclick="generateCreate()">GENERATE</button>
          </div>
          <div id="create-template" class="partner-collection example">
+            <h4><span class="start-time">Starts <span id="ex-start">MM/DD/YYYY HH:MM AM</span></span></h4>
+            <h4><span class="end-time">Ends <span id="ex-deadline">MM/DD/YYYY HH:MM AM</span></span></h4>
             <img class="collection-img" id="ex-image" src="./images/silhouette.png">
             <div class="collection-info">
                <a href="" class="clickable link" id="ex-site">
@@ -163,10 +167,11 @@
                </a>
                <h4><span id="ex-remaining">???</span>/<span id="ex-amount">???</span> Purchased
                   <br>
-                  <span id="ex-price">???</span> <img src="https://github.com/kevinrufino/dogewood-whitelist-market/blob/main/images/treat-logo.png?raw=true" class="token-icon">
+                  <!-- <span id="ex-price">???</span> <img src="https://github.com/kevinrufino/dogewood-whitelist-market/blob/main/images/treat-logo.png?raw=true" class="token-icon">
                   <br>
-                  <span class="end-time">Ends <span id="ex-deadline">MM/DD/YYYY HH:MM AM</span></span>
-                  </h4>
+                  <span class="end-time">Ends <span id="ex-deadline">MM/DD/YYYY HH:MM AM</span></span> -->
+                  <span id="ex-price">???</span> <img src="https://github.com/ctoonft/cheeth-market/blob/main/images/cheethv2.png?raw=true" class="token-icon">
+               </h4>
                <div class="inside-text collection-description" id="ex-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare neque ut aliquam lobortis. Morbi non tellus dui. Proin pellentesque nisl non augue volutpat, eu convallis nibh pretium.
                </div>
                <button class="button" onclick="addListing()">ADD LISTING</button>
@@ -187,6 +192,8 @@
             <br>
             <input type="number" min="1" id="listing-amount" placeholder="amountAvailable">
             <br>
+            <input id="listing-start" placeholder="start time (unix style - in seconds)">
+            <br>
             <input id="listing-deadline" placeholder="deadline (unix style - in seconds)">
             <br>
             <input type="number" min="0" id="listing-price" placeholder="price (in pTREAT - ex: 20)">
@@ -196,6 +203,8 @@
             <button class="button" onclick="generateModify()">UPDATE</button>
          </div>
          <div id="modify-template" class="partner-collection example">
+            <h4><span class="start-time">Starts <span id="ex-start">MM/DD/YYYY HH:MM AM</span></span></h4>
+            <h4><span class="end-time">Ends <span id="ex-deadline">MM/DD/YYYY HH:MM AM</span></span></h4>
             <img class="collection-img" id="ex-image" src="./images/silhouette.png">
             <div class="collection-info">
                <a href="" class="clickable link" id="ex-site">
@@ -203,9 +212,10 @@
                </a>
                <h4><span id="ex-remaining">???</span>/<span id="ex-amount">???</span> Purchased
                   <br>
-                  <span id="ex-price">???</span> <img src="https://github.com/kevinrufino/dogewood-whitelist-market/blob/main/images/treat-logo.png?raw=true" class="token-icon">
+                  <span id="ex-price">???</span> <img src="https://github.com/ctoonft/cheeth-market/blob/main/images/cheethv2.png?raw=true" class="token-icon">
+                  <!-- <span id="ex-price">???</span> <img src="https://github.com/kevinrufino/dogewood-whitelist-market/blob/main/images/treat-logo.png?raw=true" class="token-icon">
                   <br>
-                  <span class="end-time">Ends <span id="ex-deadline">MM/DD/YYYY HH:MM AM</span></span>
+                  <span class="end-time">Ends <span id="ex-deadline">MM/DD/YYYY HH:MM AM</span></span> -->
                   </h4>
                <div class="inside-text collection-description" id="ex-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare neque ut aliquam lobortis. Morbi non tellus dui. Proin pellentesque nisl non augue volutpat, eu convallis nibh pretium.
                </div>
