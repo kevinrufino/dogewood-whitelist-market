@@ -2,7 +2,7 @@ const ethers = require('ethers');
 
 const infuraKey = process.env.INFURA_KEY;
 const provider = new ethers.providers.InfuraProvider("mainnet", infuraKey);
-const tokenImgURL = "https://github.com/kevinrufino/dogewood-whitelist-market/blob/main/images/treat-logo.png?raw=true";
+const tokenImgURL = "https://github.com/kevinrufino/dogewood-whitelist-market/blob/main/images/treat-icon.png?raw=true";
 
 const treatAddress = "0x5d0915f929FC090fd9c843a53e7e30335dD199bc";
 

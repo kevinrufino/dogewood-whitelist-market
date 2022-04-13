@@ -14,7 +14,7 @@ const marketAbi = () => {
 
 const etherscanBase = `https://polygonscan.com/tx/`;
 const correctChain = 137;
-const tokenImgURL = "https://github.com/kevinrufino/dogewood-whitelist-market/blob/main/images/treat-logo.png?raw=true";
+const tokenImgURL = "https://github.com/kevinrufino/dogewood-whitelist-market/blob/main/images/treat-icon.png?raw=true";
 
 
 if (window.ethereum == undefined) {
