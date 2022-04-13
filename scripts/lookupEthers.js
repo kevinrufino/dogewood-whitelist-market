@@ -102,8 +102,8 @@ const loadCollectionsData = async() => {
     let fullJSX = "";
     for (const chunk of chunks) {
         await Promise.all( chunk.map( async(id) => {
-            let buyers = await market.getWLPurchasersOf(cheethAddress, id);
-            let WLinfo = await market.contractToWLVendingItems(cheethAddress, id);
+            let buyers = await market.getWLPurchasersOf(treatAddress, id);
+            let WLinfo = await market.contractToWLVendingItems(treatAddress, id);
             let title = WLinfo.title;
             let deadline = WLinfo.endTime;
             let purchased = buyers.includes(userAddress);
