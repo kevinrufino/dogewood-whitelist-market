@@ -113,7 +113,7 @@ const addListing = async() => {
                 await displayErrorMessage("Missing fields!")
             }
             else {
-                await market.addWLVendingItem(cheethAddress, [title, image, site, description, amount, 0, start, deadline, price]).then( async(tx_) => {
+                await market.addWLVendingItem(treatAddress, [title, image, site, description, amount, 0, start, deadline, price]).then( async(tx_) => {
                     await waitForTransaction(tx_);
                 });
             }
@@ -242,7 +242,7 @@ const modifyListing = async() => {
         }
         else {
             // await market.modifyWLVendingItem(treatAddress, currentlySelected, [title, image, siteFormatted, description, amount, purchased, deadline, price]).then( async(tx_) => {
-            await market.modifyWLVendingItem(cheethAddress, currentlySelected, [title, image, siteFormatted, description, amount, purchased, start, deadline, price]).then( async(tx_) => {
+            await market.modifyWLVendingItem(treatAddress, currentlySelected, [title, image, siteFormatted, description, amount, purchased, start, deadline, price]).then( async(tx_) => {
                 await waitForTransaction(tx_);
             });
         }
